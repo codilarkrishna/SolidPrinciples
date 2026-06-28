@@ -21,6 +21,7 @@ namespace SolidPrinciples
     }
     public class LogisticsSystem
     {
+        //fgdfgdf
         public void CreateShipment(int itemid) => Console.WriteLine($"shipment label creaeted for item {itemid}");
     }
     public class NotificationService
