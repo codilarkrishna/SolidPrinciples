@@ -19,6 +19,7 @@ namespace SolidPrinciples
 
     public class EmailNotification: INotification
     {
+        // Add someting
         public void Send(string message) => Console.WriteLine($"Email sent :{message}");
     }
 
