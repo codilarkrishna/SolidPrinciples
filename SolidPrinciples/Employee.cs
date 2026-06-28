@@ -8,7 +8,7 @@ namespace SolidPrinciples
 {
     internal class Employee
     {
-        public string Name { get; set; }
+        public string Name { get; set; }// Test 
         public decimal salary { get; set; }
 
         public decimal CalTax() => salary * 0.2m;
