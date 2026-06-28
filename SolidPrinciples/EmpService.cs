@@ -8,7 +8,7 @@ namespace SolidPrinciples
 {
     internal class EmpService
     {
-        // 
+        // somethng like this
         public void DisplayData(Employee employee)
             => Console.WriteLine($"Something {employee.Name}....");
     }
