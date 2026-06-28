@@ -14,7 +14,7 @@ namespace SolidPrinciples
 
     public interface INotification
     {
-        void Send(string message);
+        void Send(string message);  
     }
 
     public class EmailNotification: INotification
