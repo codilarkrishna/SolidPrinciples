@@ -9,6 +9,7 @@ namespace SolidPrinciples
 {
     internal class EmpRepository
     {
+        // This class is responsible for saving employee data to the database.
         public void SaveingData(Employee empData)
             => Console.WriteLine($"Saving {empData.Name} to database.");
     }

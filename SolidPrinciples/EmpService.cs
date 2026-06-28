@@ -9,6 +9,7 @@ namespace SolidPrinciples
     internal class EmpService
     {
         // somethng like this
+        // check if the employee is valid or not
         public void DisplayData(Employee employee)
             => Console.WriteLine($"Something {employee.Name}....");
     }

@@ -8,6 +8,7 @@ namespace SolidPrinciples
 {
     internal class StrategyDesignPattern
     {
+        // something
     }
 
     public interface IShippeingStrategy
